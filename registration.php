@@ -101,8 +101,8 @@
             <input type="text" name="name" placeholder="Name" />
             <input type="text" name="email" placeholder="Email Address" />
 
-            <input type="password" name="password" id="password" placeholder="set a password" />
-            <input type="text" name="nid" placeholder="NID Number" required pattern="+88[0-9]{13}" minlength="10" maxlength="13" id="NIDno" />
+            <input type="password" name="password" id="password" placeholder="Set a password" />
+            <input type="text" name="nid" placeholder="NID Number" required pattern="[0-9]{13}" minlength="10" maxlength="13" id="NIDno" />
             <p style="color:white;">Gender</p>
             <select class="form-control" name="gender">
                 <option>Male</option>
@@ -110,7 +110,7 @@
                 <option>Others</option>
               </select> <b><b>
             <input type="text" name="address" placeholder="Address" />
-              <input type="text"  name="mobile" placeholder="Mobile"  required pattern="[0-9]{11}" minlength="7" maxlength="11" id="mobno"/>
+              <input type="text"  name="mobile" placeholder="Mobile"  required pattern="+88[0-9]{11}" minlength="7" maxlength="11" id="mobno"/>
               
             <i class="fas fa-eye" onclick="show()"></i>
             <br>
