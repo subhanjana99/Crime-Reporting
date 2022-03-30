@@ -1,0 +1,16 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .listing {
+        padding-left: 20px;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    
+    .dmenu {
+        margin-left: -20px;
+        margin-right: -10px;
+        padding-left: 40px;
+    }
